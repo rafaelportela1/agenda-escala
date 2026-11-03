@@ -394,8 +394,8 @@ HTML_TEMPLATE = """
             <div class="form-group">
                 <label for="escala">Escala de Trabalho:</label>
                 <select name="escala" id="escala" required>
-                    <option value="2x2_interrupto" {% if parametros.escala == '2x2_interrupto' %}selected{% endif %}>2x2 (Interrupto)</option>
-                    <option value="4x2_interrupto" {% if parametros.escala == '4x2_interrupto' %}selected{% endif %}>4x2 (Interrupto)</option>
+                    <option value="2x2_interrupto" {% if parametros.escala == '2x2_interrupto' %}selected{% endif %}>2x2 (Ininterrupto)</option>
+                    <option value="4x2_interrupto" {% if parametros.escala == '4x2_interrupto' %}selected{% endif %}>4x2 (Ininterrupto)</option>
                     <option value="2x2_fixo" {% if parametros.escala == '2x2_fixo' %}selected{% endif %}>2x2 (Fixo)</option>
                     <option value="3x3_fixo" {% if parametros.escala == '3x3_fixo' %}selected{% endif %}>3x3 (Fixo)</option>
                 </select>
